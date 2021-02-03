@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		CA9195A025C96BE600A88353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA91959F25C96BE600A88353 /* AppDelegate.swift */; };
 		CA9195A225C96BE600A88353 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9195A125C96BE600A88353 /* SceneDelegate.swift */; };
-		CA9195A425C96BE600A88353 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9195A325C96BE600A88353 /* ViewController.swift */; };
 		CA9195A725C96BE600A88353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA9195A525C96BE600A88353 /* Main.storyboard */; };
 		CA9195A925C96BE800A88353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA9195A825C96BE800A88353 /* Assets.xcassets */; };
 		CA9195AC25C96BE800A88353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA9195AA25C96BE800A88353 /* LaunchScreen.storyboard */; };
+		CA9195B625C96C2000A88353 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9195B525C96C2000A88353 /* SelectViewController.swift */; };
+		CA9195B925C96FB800A88353 /* QnA.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9195B825C96FB800A88353 /* QnA.swift */; };
+		CA9195BC25C9717100A88353 /* AddQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9195BB25C9717100A88353 /* AddQuestion.swift */; };
+		CA9195BF25C9806300A88353 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9195BE25C9806300A88353 /* ScoreViewController.swift */; };
+		CA9195C225C9831E00A88353 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9195C125C9831E00A88353 /* Score.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CA91959C25C96BE600A88353 /* SelectQNA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectQNA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA91959F25C96BE600A88353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA9195A125C96BE600A88353 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CA9195A325C96BE600A88353 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CA9195A625C96BE600A88353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA9195A825C96BE800A88353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA9195AB25C96BE800A88353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA9195AD25C96BE800A88353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA9195B525C96C2000A88353 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		CA9195B825C96FB800A88353 /* QnA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QnA.swift; sourceTree = "<group>"; };
+		CA9195BB25C9717100A88353 /* AddQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestion.swift; sourceTree = "<group>"; };
+		CA9195BE25C9806300A88353 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		CA9195C125C9831E00A88353 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				CA91959F25C96BE600A88353 /* AppDelegate.swift */,
 				CA9195A125C96BE600A88353 /* SceneDelegate.swift */,
-				CA9195A325C96BE600A88353 /* ViewController.swift */,
 				CA9195A525C96BE600A88353 /* Main.storyboard */,
 				CA9195A825C96BE800A88353 /* Assets.xcassets */,
 				CA9195AA25C96BE800A88353 /* LaunchScreen.storyboard */,
 				CA9195AD25C96BE800A88353 /* Info.plist */,
+				CA9195B525C96C2000A88353 /* SelectViewController.swift */,
+				CA9195B825C96FB800A88353 /* QnA.swift */,
+				CA9195BB25C9717100A88353 /* AddQuestion.swift */,
+				CA9195BE25C9806300A88353 /* ScoreViewController.swift */,
+				CA9195C125C9831E00A88353 /* Score.swift */,
 			);
 			path = SelectQNA;
 			sourceTree = "<group>";
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA9195A425C96BE600A88353 /* ViewController.swift in Sources */,
+				CA9195C225C9831E00A88353 /* Score.swift in Sources */,
+				CA9195B925C96FB800A88353 /* QnA.swift in Sources */,
 				CA9195A025C96BE600A88353 /* AppDelegate.swift in Sources */,
+				CA9195BC25C9717100A88353 /* AddQuestion.swift in Sources */,
+				CA9195B625C96C2000A88353 /* SelectViewController.swift in Sources */,
 				CA9195A225C96BE600A88353 /* SceneDelegate.swift in Sources */,
+				CA9195BF25C9806300A88353 /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +303,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4K6HYVFY86;
 				INFOPLIST_FILE = SelectQNA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4K6HYVFY86;
 				INFOPLIST_FILE = SelectQNA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
